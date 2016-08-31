@@ -1,0 +1,49 @@
+# Easier navigation: .., ..., ~ and -.
+alias ..="cd .."
+alias cd..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ~="cd ~" # `cd` is probably faster to type though
+alias -- -="cd -"
+
+# mv, rm, cp.
+alias mv='mv -v'
+alias rm='rm -i -v'
+alias cp='cp -v'
+
+###
+# GIT STUFF
+###
+
+# git root.
+alias master="git checkout master"
+
+# Undo a `git push`.
+alias undopush="git push -f origin HEAD^:master"
+
+# Recursively delete `.DS_Store` files.
+alias cleanup_dsstore="find . -name '*.DS_Store' -type f -ls -delete"
+alias wget="curl -O"
+
+# Shortcuts.
+alias g="git"
+
+# Implement git up.
+alias git up="git config --global alias.up 'pull --rebase --autostash'"
+
+
+###
+# DEV TOOLS
+###
+
+# Update Ruby gems, Homebrew, and npm.
+alias update_dev_tools="brew -v update;brew cleanup;brew prune;npm install npm -g;npm update -g;sudo gem update --system;sudo gem update --no-document;"
+
+
+###
+# PYTHON
+###
+
+# Python3 should be the default by now.
+alias python="python3"
