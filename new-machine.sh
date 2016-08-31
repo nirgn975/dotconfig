@@ -4,6 +4,10 @@ xcode-select --install
 # First install brew - we can't do anything in this world without a package manager.
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+###
+# INSTALL DEV STUFF
+###
+
 # Now, let's save you some serious time.
 # install latest git.
 brew install git
@@ -55,3 +59,14 @@ npm install -g electron
 
 # Install `gulp` command.
 npm install -g gulp
+
+
+###
+# INSTALL USER SOFTWARE
+###
+
+# Install Google Chrome
+brew install Caskroom/cask/google-chrome
+
+# Install Skitch.
+brew install Caskroom/cask/skitch

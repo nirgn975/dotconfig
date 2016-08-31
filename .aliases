@@ -12,6 +12,7 @@ alias mv='mv -v'
 alias rm='rm -i -v'
 alias cp='cp -v'
 
+
 ###
 # GIT STUFF
 ###
@@ -48,5 +49,5 @@ alias update_dev_tools="brew -v update;brew cleanup;brew prune;npm install npm -
 # Python3 should be the default by now.
 alias python="python3"
 
-# Pip3 will be the default python package manager.
+# Pip3 will be the default python package manager.install
 alias pip="pip3"
