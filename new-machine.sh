@@ -70,3 +70,10 @@ brew install Caskroom/cask/google-chrome
 
 # Install Skitch.
 brew install Caskroom/cask/skitch
+
+# Install Jetbrains IDEs.
+brew install Caskroom/cask/webstorm
+brew install Caskroom/cask/pycharm
+brew install Caskroom/cask/intellij-idea
+
+# Install Atom.
