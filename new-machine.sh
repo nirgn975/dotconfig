@@ -32,11 +32,8 @@ brew install thefuck
 # Update git to the latest version.
 brew install git
 
-# Instal latest version of Python 3.
+# Install latest version of Python 3.
 brew install python3
-
-# Install pip - python package manager.
-
 
 # Install PostgreSQL.
 brew install postgres

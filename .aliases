@@ -47,3 +47,6 @@ alias update_dev_tools="brew -v update;brew cleanup;brew prune;npm install npm -
 
 # Python3 should be the default by now.
 alias python="python3"
+
+# Pip3 will be the default python package manager.
+alias pip="pip3"
