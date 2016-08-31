@@ -4,6 +4,10 @@ xcode-select --install
 # First install brew - we can't do anything in this world without a package manager.
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+###
+# INSTALL DEV STUFF
+###
+
 # Now, let's save you some serious time.
 # install latest git.
 brew install git
@@ -32,11 +36,8 @@ brew install thefuck
 # Update git to the latest version.
 brew install git
 
-# Instal latest version of Python 3.
+# Install latest version of Python 3.
 brew install python3
-
-# Install pip - python package manager.
-
 
 # Install PostgreSQL.
 brew install postgres
@@ -58,3 +59,21 @@ npm install -g electron
 
 # Install `gulp` command.
 npm install -g gulp
+
+
+###
+# INSTALL USER SOFTWARE
+###
+
+# Install Google Chrome
+brew install Caskroom/cask/google-chrome
+
+# Install Skitch.
+brew install Caskroom/cask/skitch
+
+# Install Jetbrains IDEs.
+brew install Caskroom/cask/webstorm
+brew install Caskroom/cask/pycharm
+brew install Caskroom/cask/intellij-idea
+
+# Install Atom.
