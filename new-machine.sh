@@ -5,20 +5,27 @@ xcode-select --install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Now, let's save you some serious time.
-# install latest git.
+# Update brew and install cask.
+brew update
+brew tap caskroom/cask
+
+# Install latest git.
 brew install git
 
+# Install RVM.
+\curl -L https://get.rvm.io | bash -s stable --ruby
+
 # Install the latest Ruby.
-brew install ruby
-
-# Install the latest rubygems.
-
+rvm install ruby --latest
 
 # Install latest Jekyll and Jekyll paginate.
 sudo gem install jekyll jekyll-paginate
 
 # Install latest SASS.
 sudo gem install sass
+
+# Install Java.
+brew cask install java
 
 # Install Tree - you need it, I know..
 brew install tree
@@ -29,8 +36,8 @@ brew install zsh zsh-completions
 # Install thefuck.
 brew install thefuck
 
-# Update git to the latest version.
-brew install git
+# Install the hyper terminal.
+brew cask install hyper
 
 # Instal latest version of Python 3, pip, setuptools, and wheel.
 brew install python3
@@ -38,20 +45,23 @@ brew install python3
 # Install PostgreSQL.
 brew install postgres
 
-# Install Node.js.
+# Install Node.JS and npm.
 brew install node
 
 # Install MongoDB.
 brew install mongodb
 
-# Install RethinkDB.
-brew install rethinkdb
+# Install npm packages.
+npm install -g angular-cli electron gulp source-map-explorer firebase-tools lighthouse typescript typings yo local-web-server
 
-# Install `ng` command.
-npm install -g angular-cli
-
-# Install `electron` command.
-npm install -g electron
-
-# Install `gulp` command.
-npm install -g gulp
+# Install some softwares
+brew cask install google-chrome
+brew cask install kap
+brew cask install webstorm
+brew cask install pycharm
+brew cask install google-cloud-sdk
+brew cask install google-drive
+brew cask install google-photos-backup
+brew cask install google-play-music-desktop-player
+brew cask install atom
+brew cask install skitch
