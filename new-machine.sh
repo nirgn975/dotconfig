@@ -39,7 +39,7 @@ brew install thefuck
 # Install the hyper terminal.
 brew cask install hyper
 
-# Instal latest version of Python 3, pip, setuptools, and wheel.
+# Install latest version of Python 3, pip, setuptools, and wheel.
 brew install python3
 
 # Install PostgreSQL.
